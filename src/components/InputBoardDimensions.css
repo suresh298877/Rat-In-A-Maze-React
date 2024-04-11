@@ -1,0 +1,17 @@
+.boxInput {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    /* background-color: aqua; */
+    color: rgb(214, 145, 49);
+}
+
+input {
+    height: 25px;
+}
+
+label {
+    color: blueviolet;
+}
