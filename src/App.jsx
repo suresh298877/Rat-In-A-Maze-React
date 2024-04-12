@@ -63,7 +63,7 @@ function App() {
 
       setTimeout(() => {
         setPathBoard(deepClone(maze));
-      }, 200);
+      }, 100);
 
       // setBoard((prev_board) => {
       //   prev_board[i][j] = 1;
@@ -82,22 +82,22 @@ function App() {
       paths(deepClone(maze), i, j + 1, M, N, asf + "R");
       setTimeout(() => {
 
-      }, 200)
+      }, 100)
       paths(deepClone(maze), i + 1, j, M, N, asf + "D");
       setTimeout(() => {
 
-      }, 200)
+      }, 100)
       paths(deepClone(maze), i, j - 1, M, N, asf + "L");
       setTimeout(() => {
 
-      }, 200)
+      }, 100)
       paths(deepClone(maze), i - 1, j, M, N, asf + "U");
 
       maze[i][j] = temp;
 
       setTimeout(() => {
         setPathBoard(deepClone(maze));
-      }, 200);
+      }, 100);
 
       // console.log("Restored maze:", maze); // Log restored maze
       // setNewBoard(prevBoard => {
